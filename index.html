@@ -1,1 +1,222 @@
-<h1> coming soon </h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project page for One Phase Is Enough: Sim-to-Real Transfer with Direct Visual Reinforcement Learning.">
+  <!-- Remove noindex when the page is ready to publish. -->
+  <meta name="theme-color" content="#f7f8fa">
+  <title>One Phase Is Enough — Direct Visual Sim-to-Real RL</title>
+  <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css?v=teaser-left62">
+  <script src="static/js/script.js?v=author-email59" defer></script>
+  <link rel="stylesheet" href="static/results/story-v54.css">
+  <script src="static/results/data-v27.js" defer></script>
+  <script src="static/results/ood-media-v8.js" defer></script>
+  <script src="static/results/ood-bars-v1.js" defer></script>
+  <script src="static/results/story-v54.js" defer></script>
+  <link rel="stylesheet" href="static/results/rollout-viewer.css?v=41">
+  <script src="static/results/rollout-viewer.js?v=42" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- PROJECT HEADER: author details are populated; resource links remain placeholders. -->
+  <header class="hero" id="top">
+    <div class="container">
+      <h1 class="paper-title">
+        One Phase Is Enough:
+        <span class="subtitle">Sim-to-Real Transfer with<br class="desktop-break"> Direct Visual Reinforcement Learning</span>
+      </h1>
+      <!-- Author order follows the paper PDF title page. All authors share both affiliations, shown as logos below. -->
+      <div class="author-list" aria-label="Authors">
+        <div class="author-with-card">
+          <a class="author" href="https://jmarangola.com/" target="_blank" rel="noopener noreferrer" aria-describedby="john-phd-card">John Marangola</a>
+          <div class="author-card" id="john-phd-card" aria-label="John’s PhD application announcement">
+            <strong>Applying to PhD programs</strong>
+            <p>John is applying to PhD programs and would love to chat with faculty who are hiring students.</p>
+            <div class="author-email">
+              <button class="author-email-copy" type="button" aria-label="Copy email address" title="Copy email address" data-copy-email="jmgola@mit.edu">
+                <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4"/></svg>
+                <svg class="copied-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>
+              </button>
+              <span class="author-email-text">jmgola@mit.edu</span>
+              <span class="author-copy-status" role="status"></span>
+            </div>
+            <a href="https://jmarangola.com/" target="_blank" rel="noopener noreferrer"><strong>jmarangola.com ↗</strong></a>
+          </div>
+        </div>
+        <div class="author-with-card">
+          <a class="author" href="https://tonibronars.github.io/" target="_blank" rel="noopener noreferrer" aria-describedby="antonia-job-market">Antonia Bronars</a>
+          <div class="author-card" id="antonia-job-market" aria-label="Antonia’s job market announcement">
+            <strong>On the job market</strong>
+            <p>Antonia is looking for robotics research scientist positions starting in 2027. If you’re hiring, she’d love to talk.</p>
+            <a href="https://tonibronars.github.io/" target="_blank" rel="noopener noreferrer"><strong>tonibronars.github.io ↗</strong></a>
+          </div>
+        </div>
+        <a class="author" href="https://younghyopark.me/" target="_blank" rel="noopener noreferrer">Younghyo Park</a>
+        <a class="author" href="https://www.linkedin.com/in/stephen-d-r-andrews/" target="_blank" rel="noopener noreferrer">Stephen Andrews</a>
+        <a class="author" href="https://kushal2000.github.io/" target="_blank" rel="noopener noreferrer">Kushal Kedia</a>
+        <a class="author" href="https://people.csail.mit.edu/pulkitag/" target="_blank" rel="noopener noreferrer">Pulkit Agrawal</a>
+      </div>
+      <div class="affiliations" aria-label="Affiliations">
+        <img src="static/images/mit_logo_std_rgb_mit-red.png" alt="Massachusetts Institute of Technology" title="Massachusetts Institute of Technology">
+        <a class="affiliation-link" href="https://improbableai.com/" target="_blank" rel="noopener noreferrer" aria-label="Improbable AI Lab website"><img class="lab-logo" src="static/images/improbable_ai_lab_logo.png" alt="Improbable AI Lab" title="Improbable AI Lab"></a>
+      </div>
+      <div class="link-buttons" aria-label="Project resources">
+        <!-- Replace each disabled button with <a class="btn" href="…"> when ready. -->
+        <a class="btn" href="static/papers/ICRA_2027__OnePhaseRL.pdf" target="_blank" rel="noopener noreferrer" title="Read the paper (PDF)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8l-5-5Z"/><path d="M14 3v5h5M8 12h8M8 16h6"/></svg>
+          Paper
+        </a>
+        <button class="btn" type="button" disabled title="Code coming soon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg>
+          Code — coming soon!
+        </button>
+      </div>
+      <div class="venue-line">Preprint · 2026</div>
+    </div>
+  </header>
+
+  <!-- This compact header appears after the main title leaves the screen. -->
+  <div class="sticky-header" id="sticky-header" hidden>
+    <div class="sticky-header-inner">
+      <a class="sticky-title" href="#top">One Phase is Enough</a>
+      <span class="sticky-subtitle">Direct Visual Sim-to-Real Reinforcement Learning</span>
+      <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </div>
+
+  <!-- Generic sections are intentionally blank; their order is not the final narrative. -->
+  <main id="main" tabindex="-1">
+    <section class="section teaser-section" id="teaser-headline" aria-label="Real-world policy demonstrations">
+      <div class="container container-medium">
+        <figure>
+          <video class="teaser-video" autoplay muted loop playsinline disablepictureinpicture preload="auto"
+                 poster="static/videos/teaser-draft/teaser-flow-v1-poster.jpg?v=diverse-dr-v1"
+                 aria-label="Direct visual sim-to-real RL, robust real-world control, and simulated clutter picking">
+            <source src="static/videos/teaser-draft/website-teaser-peg19-trimmed.mp4?v=peg-trim-v2" type="video/mp4">
+          </video>
+          <figcaption><strong>One-Phase Sim-to-Real RL.</strong> RGB policies trained in simulation and transferred zero-shot to real hardware. All policies are 1X speed. One phase RL learns fast, robust behavior and exhibits superior transfers to the real-world over two-phase approaches.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="abstract">
+      <div class="container container-narrow">
+        <h2 id="abstract" data-toc>Abstract</h2>
+        <p>Sim-to-real reinforcement learning (RL) has enabled impressive robotic behaviors, yet deploying policies directly from vision remains challenging. A common approach first trains a teacher policy with RL using privileged state observations, then distills its behavior into a vision-based student via supervised learning. However, the resulting student can substantially underperform its teacher. Directly training visual policies with RL offers a promising alternative, but learning task-relevant visual representations from scratch can be sample-inefficient, making one-phase visual RL intractable.</p>
+        <p>We propose <strong class="drift-acronym">DRIFT</strong>, a simple recipe for one-phase visual sim-to-real RL that combines frozen pretrained vision transformers with fast rasterized simulation. The policies transfer zero-shot to real hardware without demonstrations, teacher–student distillation, or real-world policy training data. Under matched architectures, observations, and compute budgets, <strong class="drift-acronym">DRIFT</strong> achieves 58.8% higher mean real-world success than two-phase distillation across three manipulation tasks. Despite similar in-distribution simulation success, direct RL generalizes substantially better under distribution shifts than policies trained through supervised distillation, suggesting that broader robustness contributes to stronger sim-to-real transfer.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="method">
+      <div class="container container-medium">
+        <h2 id="method" class="story-heading" data-toc>One-phase RL learns robust behavior</h2>
+        <figure class="figure-full">
+          <iframe id="robustness-demo" data-src="browser-policy/?v=training-layout53" allow="cross-origin-isolated" title="Push-T policy running on your device" loading="lazy" style="display:block;width:100%;height:620px;border:0;"></iframe>
+        </figure>
+        <script type="module" src="static/js/browser-policy-embed.js"></script>
+      </div>
+    </section>
+
+    <section class="section research-section" aria-labelledby="overview">
+      <div class="container container-medium">
+        <h2 id="overview" class="story-heading" data-toc>One phase is enough for visual sim-to-real transfer.</h2>
+        <p><strong>Matched visual policy architecture, observations, simulation environment, and training compute. Different training procedures.</strong></p>
+        <figure class="research-figure" id="transfer-vertical-figure" aria-label="Simulation and real-world success by task">
+          <div class="vertical-toolbar"><button type="button" id="vertical-transfer-replay" aria-label="Replay vertical comparison" title="Replay comparison">↻</button></div>
+          <div class="vertical-head"><h3 class="vertical-heading-sim">Simulation</h3><h3 class="vertical-heading-real">Real world</h3></div>
+          <div id="vertical-transfer-rows"></div>
+          <div class="vertical-footer"><div class="vertical-key" aria-label="Methods"><span class="vertical-key-ours"><i aria-hidden="true"></i>One Phase RL</span><span class="vertical-key-distillation"><i aria-hidden="true"></i>Distillation</span></div></div>
+        </figure>
+        <figure class="research-figure rollout-viewer" id="transfer-rollouts" aria-label="Real-world rollout comparison">
+          <div class="rollout-toolbar"><div class="rollout-tabs" data-tasks></div><div class="rollout-options"><select data-mode aria-label="Rollout selection"><option value="fast">Fast successes</option><option value="all">All episodes</option><option value="failure">Failures</option></select><button type="button" data-play aria-label="Pause rollout videos">Ⅱ Pause</button></div></div>
+          <div class="rollout-panels" data-panels></div>
+          <figcaption class="rollout-footer"><span data-order>Three fast successes, then all episodes automatically.</span><span><strong>Real world · 1×</strong> · Reported checkpoints</span></figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="section research-section" aria-labelledby="results">
+      <div class="container container-medium">
+        <h2 id="results" class="story-heading" data-toc>Direct RL generalizes beyond its training distribution.</h2>
+        <h3 id="goal-generalization" class="research-subheading" data-toc>One-phase RL generalizes over a wide range of goals</h3>
+        <p>Move the goal beyond the positions seen during training. Both policies perform well near the training region; their success differs farther away.</p>
+        <figure class="research-figure" id="goal-figure">
+          <div class="research-toolbar">
+            <label>Task <select id="research-goal-task"><option value="pusht">Push-T</option><option value="peg">Peg insertion</option></select></label>
+            <label id="peg-grid-control" hidden>Grid <select id="peg-grid-density"><option value="dense">10 × 10</option><option value="paper">5 × 5 · paper</option></select></label>
+            <div class="research-actions"><button type="button" id="goal-training">Training region</button><button type="button" id="goal-all">All positions</button><button type="button" id="goal-replay" aria-label="Replay reveal" title="Replay reveal">↻</button></div>
+          </div>
+          <div class="goal-panels"><div><h3>One Phase RL</h3><canvas id="goal-map-rl" role="img" aria-label="One Phase RL goal-position success map"></canvas></div><div><h3>Distillation</h3><canvas id="goal-map-dagger" role="img" aria-label="Distillation goal-position success map"></canvas></div></div>
+          <div class="research-legend goal-legend"><span>0%</span><i class="goal-gradient"></i><span>100% success</span><span><i class="goal-training-key"></i>Training region</span></div>
+          <figcaption><strong>Success beyond the training bounds.</strong> The black outline marks displayed positions within the training range. Each cell reports 300 simulation evaluations across three independently trained seeds. The animation reveals measured outcomes; it does not show training progress.</figcaption>
+        </figure>
+        <h3 id="appearance-dynamics" class="research-subheading" data-toc>Robustness extends to changes in appearance and dynamics.</h3>
+        <figure class="research-figure robustness-summary" id="robustness-summary" aria-label="Aggregate success under distribution shifts">
+          <div class="robustness-banner"><span class="robustness-banner-title">Success under distribution shifts</span><button type="button" id="robustness-replay" aria-label="Replay robustness comparison" title="Replay comparison">↻</button></div>
+          <div class="shift-panels-grid" id="robustness-panels"></div>
+          <div class="research-legend robustness-key"><span><i class="key-rl"></i>One Phase RL</span><span><i class="key-dagger"></i>Distillation</span></div>
+          <figcaption><strong>One-phase visual RL retains higher success under distribution shifts.</strong> Averaged across Push-T and peg insertion; forces are evaluated on Push-T only.</figcaption>
+        </figure>
+        <aside class="research-takeaway"><span class="research-takeaway-label" aria-label="Finding 1">1</span><div><strong>Transfer is also a generalization problem.</strong><p>Real hardware changes what a policy sees and how the world responds. Robustness to these changes may help explain stronger transfer.</p></div></aside>
+      </div>
+    </section>
+
+    <section class="section research-section" aria-labelledby="recipe">
+      <div class="container container-medium">
+        <h2 id="recipe" class="story-heading" data-toc>What makes one-phase visual RL work?</h2>
+        <p>Frozen visual representations and fast rasterized simulation make more experience affordable.</p>
+        <div class="recipe-flow" aria-label="RGB images pass through a frozen vision transformer to dense patch features, which combine with proprioception in a trainable visual policy that produces actions."><div>RGB images<span>Simulated camera views</span></div><b aria-hidden="true">→</b><div>Frozen ViT<span>Dense patch features</span></div><b aria-hidden="true">→</b><div>Trainable policy<span>+ proprioception · PPO rewards</span></div><b aria-hidden="true">→</b><div>Actions<span>Robot control</span></div></div>
+        <figure class="research-figure" id="compute-figure">
+          <div class="research-toolbar"><h3 id="training-time" data-toc>Where does the training time go?</h3><button type="button" id="compute-replay" aria-label="Replay training throughput" title="Replay comparison">↻</button></div>
+          <div class="research-legend compute-legend"><span><i class="compute-key-env"></i>Simulation + rendering</span><span><i class="compute-key-fwd"></i>Forward pass</span><span><i class="compute-key-update"></i>Backpropagation</span></div>
+          <div id="compute-rows"></div>
+          <div class="compute-axis"><div><span>0</span><span>1×</span><span>2×</span><span>3×</span><span>4×</span><span>5×</span></div><p>Training throughput · relative to frozen ViT + ray tracing</p></div>
+          <figcaption><strong>Frozen ViT features and rasterization substantially increase training throughput.</strong> Visual RL breakdown per training hour on Peg insertion. Bar length shows experience collected per hour, relative to frozen ViT with ray tracing; segments show the fraction of timed training spent in simulation (including rendering), the neural-network forward pass, and backpropagation. Measured on one L40S, one seed per configuration; evaluation and un-timed overhead are excluded.</figcaption>
+        </figure>
+        <h3 id="learning-runs" class="research-subheading" data-toc>Learning across three independent runs.</h3>
+        <figure class="research-figure learning-figure" id="learning-figure">
+          <div class="learning-hero"><h3>Push-T</h3><img src="static/results/learning-pusht-v22.svg" alt="Push-T: three-seed mean learning curves with the paper's EMA smoothing, Direct RL in blue and distillation in brown, plus a dotted teacher reference." loading="lazy" width="820" height="290"></div>
+
+          <div class="research-legend learning-key"><span><i class="learning-line-rl"></i>Direct RL</span><span><i class="learning-line-distill"></i>Distillation</span><span><i class="learning-line-teacher"></i>Teacher reference</span></div>
+          <figcaption>Mean ±1 standard deviation across three training seeds, with the paper’s EMA smoothing (2 GPU-hour half-life). Distillation includes its full teacher-training cost. The dotted line shows mean best evaluated teacher performance; curves end at their shared measured support.</figcaption>
+
+        </figure>
+        <h3 class="research-subheading" id="encoder-heading" data-toc>Not all frozen visual encoders transfer equally.</h3>
+        <figure class="research-figure" id="encoder-figure" aria-labelledby="encoder-heading">
+          <div class="encoder-top"><div class="encoder-keys">
+            <div class="encoder-key-group" role="group" aria-label="Pretraining legend"><span class="encoder-key-title">Pretraining</span><div class="research-legend"><button type="button" class="encoder-legend-item" data-encoder-key="family" data-encoder-value="DINOv3" aria-label="Highlight DINOv3 encoders"><i class="encoder-family-dino" aria-hidden="true"></i>DINOv3</button><button type="button" class="encoder-legend-item" data-encoder-key="family" data-encoder-value="SigLIP2" aria-label="Highlight SigLIP2 encoders"><i class="encoder-family-siglip" aria-hidden="true"></i>SigLIP2</button><button type="button" class="encoder-legend-item" data-encoder-key="family" data-encoder-value="ImageNet" aria-label="Highlight ImageNet-1K encoders"><i class="encoder-family-imagenet" aria-hidden="true"></i>ImageNet-1K</button></div></div>
+            <div class="encoder-key-group" role="group" aria-label="Architecture legend"><span class="encoder-key-title">Architecture</span><div class="research-legend"><button type="button" class="encoder-legend-item" data-encoder-key="architecture" data-encoder-value="ViT" aria-label="Highlight ViT encoders"><i class="encoder-architecture-solid" aria-hidden="true"></i>ViT</button><button type="button" class="encoder-legend-item" data-encoder-key="architecture" data-encoder-value="CNN" aria-label="Highlight CNN encoders"><i class="encoder-architecture-hatch" aria-hidden="true"></i>CNN</button></div></div>
+          </div><button type="button" id="encoder-replay" aria-label="Replay encoder comparison" title="Replay comparison">↻</button></div>
+          <div class="encoder-head"><span>Simulation</span><span>Real world</span></div>
+          <div id="encoder-comparison"></div>
+          <div class="encoder-scales"><div><span>0%</span><span>50%</span><span>100%</span></div><div><span>0%</span><span>50%</span><span>100%</span></div></div>
+          <div class="encoder-axis-label">Success rate</div>
+          <p class="encoder-note">— Not evaluated in the real world</p>
+          <figcaption><strong>Strong simulation performance does not guarantee transfer.</strong> Paper encoder ablation on Peg insertion: best simulation checkpoint from one training seed per encoder, 512 episodes per checkpoint; 30 real-world trials for each of three selected encoders. Simulation and real-world results may use different checkpoints.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+    <section class="section acknowledgments-section" aria-labelledby="acknowledgments">
+      <div class="container container-narrow">
+        <h2 id="acknowledgments" data-toc>Acknowledgments</h2>
+        <p class="placeholder-text">Acknowledgments to come.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Populated from headings with data-toc; the page works without JavaScript. -->
+  <nav class="dynamic-toc" id="dynamic-toc" aria-label="On this page" hidden></nav>
+  <footer class="footer">
+    <p>© 2026 Improbable AI Lab @ MIT CSAIL.</p>
+  </footer>
+</body>
+</html>

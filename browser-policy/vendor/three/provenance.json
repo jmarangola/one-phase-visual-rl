@@ -1,0 +1,13 @@
+{
+  "package": "three",
+  "version": "0.181.0",
+  "url": "https://registry.npmjs.org/three/-/three-0.181.0.tgz",
+  "tarball_sha256": "e1f2136db0296f0778eb85b26cbc4b4d312660744f72b360b7913e06af2b4aee",
+  "additional_files": [
+    {
+      "path": "examples/jsm/controls/OrbitControls.js",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r181/examples/jsm/controls/OrbitControls.js",
+      "sha256": "e1cdf5833c6e0aa095bd1a4f67dffe68f35677a992e1fb26fe374b5b759ce267"
+    }
+  ]
+}

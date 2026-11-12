@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-ray-preview="true">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>One Phase Is Enough · rt-fast preview</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js"}}</script>
+  <script type="module" src="main.js"></script>
+  <style>
+    .preview-heading{font-size:22px;letter-spacing:-.03em;margin:12px 0 8px}
+    .preview-note{color:#707070;font-size:13px;line-height:1.6;margin:0 0 18px;max-width:770px}
+    .preview-info{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px 6px;color:#777;font-size:12px}
+    .preview-info label{display:flex;align-items:center;gap:6px;color:#444}
+    .preview-info a{color:inherit;margin-left:auto}
+  </style>
+</head>
+<body>
+  <main class="demo" aria-label="An RGB policy running on this device">
+    <h1 class="preview-heading">rt-fast browser preview</h1>
+    <p class="preview-note">Forced ray tracing · 2 samples per pixel · 1 bounce. Starts paused so you can inspect the image. Play runs the policy; drag to orbit and scroll to zoom on desktop.</p>
+    <div class="demo-window">
+      <div class="toolbar" role="group" aria-label="Simulation controls">
+        <button id="pause" type="button" disabled>
+          <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="4" y="3" width="2.5" height="10" rx=".6"/><rect x="9.5" y="3" width="2.5" height="10" rx=".6"/></svg>
+          <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.2v9.6L12.5 8z"/></svg>
+          <span id="pause-label">Pause</span>
+        </button>
+        <button id="reset" type="button" disabled>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.7A5.3 5.3 0 1 1 2.7 10M3 2.6v3.5h3.5"/></svg>
+          <span>Reset</span>
+        </button>
+      </div>
+    <div class="viewport" id="viewport">
+      <canvas id="scene" aria-label="Live Push-T simulation controlled by the trained RGB policy"></canvas>
+      <div class="loading" id="loading" role="status" aria-live="polite">
+        <div class="loading-content">
+          <p id="loading-title">Loading the policy</p>
+          <div class="progress-track" id="progress-track" role="progressbar" aria-label="Download progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress-fill"></div></div>
+          <p id="loading-detail">Preparing the simulation</p>
+          <button id="retry" hidden>Try again</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="preview-info">
+      <span id="ray-samples">2 samples / pixel</span>
+      <label><input type="checkbox" id="ray-refine">Refine while paused</label>
+      <a href="./">Rasterized preview</a>
+    </div>
+    <p class="preview-note">Matches ManiSkill’s rt-fast sampling and path-depth settings. This uses a browser GPU ray tracer with a spatial denoiser; native SAPIEN uses OptiX, so image quality and speed will differ. Refinement is optional and increases the sample count above the rt-fast preset.</p>
+    <span id="status" class="sr-only" role="status" aria-live="polite">Loading</span>
+  </main>
+</body>
+</html>

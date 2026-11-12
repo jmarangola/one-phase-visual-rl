@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>One Phase Is Enough · Browser policy</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js"}}</script>
+  <script type="module" src="main.js?v=fly48"></script>
+</head>
+<body>
+  <main class="demo" aria-label="An RGB policy running on this device">
+    <div class="demo-window">
+      <div class="policy-banner" id="policy-indicator">
+        <span class="live-dot" aria-hidden="true"></span><span>Live Interactive Visual Policy <span aria-hidden="true">·</span> <span class="policy-instruction">Click and drag the Tee or gripper, then release to apply forces</span></span>
+      </div>
+    <div class="demo-layout">
+    <div class="viewport" id="viewport">
+      <canvas id="scene" aria-label="Live Push-T simulation controlled by the trained RGB policy"></canvas>
+      <div class="loading" id="loading" role="status" aria-live="polite">
+        <div class="loading-content">
+          <p id="loading-title">Loading the policy</p>
+          <div class="progress-track" id="progress-track" role="progressbar" aria-label="Download progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progress-fill"></div></div>
+          <p id="loading-detail">Preparing the simulation</p>
+          <button id="retry" hidden>Try again</button>
+        </div>
+      </div>
+    </div>
+    <aside class="policy-inputs" id="policy-inputs" aria-labelledby="policy-inputs-title">
+      <h2 id="policy-inputs-title">Policy Inputs</h2>
+      <figure class="camera-input">
+        <figcaption>What the policy sees</figcaption>
+        <div class="camera-frame">
+          <canvas id="policy-camera" width="224" height="224" role="img" aria-label="Live wrist-camera RGB image supplied to the policy"></canvas>
+          <span class="input-placeholder">Waiting for camera</span>
+        </div>
+      </figure>
+      <section class="joint-inputs" aria-labelledby="joint-inputs-title">
+        <div class="input-section-heading"><h3 id="joint-inputs-title">What the policy feels</h3><span>7 joints</span></div>
+        <div class="joint-columns" aria-hidden="true"><span></span><span>Position <small>rad</small></span><span>Velocity <small>rad/s</small></span></div>
+        <div id="joint-readings" class="joint-readings" role="list" aria-label="Current joint positions and velocities"></div>
+      </section>
+    </aside>
+    </div>
+      <div class="toolbar playback-toolbar" role="group" aria-label="Simulation controls">
+        <button id="pause" type="button" disabled>
+          <svg class="pause-icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="4" y="3" width="2.5" height="10" rx=".6"/><rect x="9.5" y="3" width="2.5" height="10" rx=".6"/></svg>
+          <svg class="play-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.2v9.6L12.5 8z"/></svg>
+          <span id="pause-label">Pause</span>
+        </button>
+        <button id="reset" type="button" disabled>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.7A5.3 5.3 0 1 1 2.7 10M3 2.6v3.5h3.5"/></svg>
+          <span>Reset</span>
+        </button>
+      </div>
+    </div>
+    <span id="status" class="sr-only" role="status" aria-live="polite">Loading</span>
+  </main>
+</body>
+</html>

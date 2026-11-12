@@ -1,0 +1,17 @@
+{
+  "version": "1.31.1",
+  "wasm_bytes": 28747738,
+  "wasm_sha256": "ca319e9539cd0f1e291cf56074760121eaf39650f5dbf84b6e52c07f4b2944ec",
+  "assets": [
+    {
+      "path": "ort-wasm-simd-threaded.asyncify.part-0.bin",
+      "bytes": 16777216,
+      "sha256": "273f77c856c0eae1945c74e67aa0a655cf96eaa9665f05c3e33d9b4a6930bfd3"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.asyncify.part-1.bin",
+      "bytes": 11970522,
+      "sha256": "26d616bf5474508679753aef352929a74a42209b3ff179487d952f0ae58017a2"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>GPU capability diagnostic</title><body><pre id="result">Checking browser GPU support</pre><script type="module">
+const result={secureContext:isSecureContext,webgpuAPI:!!navigator.gpu};
+result.adapters=[];
+for(const options of [{},{powerPreference:'high-performance'},{featureLevel:'compatibility'}]){
+try{const adapter=await navigator.gpu?.requestAdapter(options);result.adapters.push({options,available:!!adapter,features:adapter?Array.from(adapter.features):[]});}
+catch(error){result.adapters.push({options,error:String(error)});}}
+try{const adapter=await navigator.gpu?.requestAdapter();result.webgpuAdapter=!!adapter;if(adapter){result.adapterInfo=adapter.info;result.features=Array.from(adapter.features);}}catch(error){result.webgpuError=String(error);}
+try{const canvas=document.createElement('canvas'),gl=canvas.getContext('webgl2');result.webgl2=!!gl;if(gl){const debug=gl.getExtension('WEBGL_debug_renderer_info');result.renderer=debug?gl.getParameter(debug.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER);gl.getExtension('WEBGL_lose_context')?.loseContext();}}catch(error){result.webglError=String(error);}
+document.getElementById('result').textContent=JSON.stringify(result,null,2);
+</script></body></html>

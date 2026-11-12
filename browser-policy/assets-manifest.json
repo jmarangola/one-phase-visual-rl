@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "scene": {
+    "spec": "assets/scene/scene-spec.json",
+    "base": "assets/scene/"
+  },
+  "policy": {
+    "manifest": "assets/policy/manifest.json",
+    "base": "assets/policy/"
+  },
+  "runtime": {
+    "manifest": "vendor/ort/runtime-manifest.json",
+    "base": "vendor/ort/"
+  },
+  "physics": {
+    "wasm": "vendor/physx/physx-js-webidl.wasm"
+  },
+  "files": [
+    {
+      "url": "assets/scene/lighting/environment.hdr",
+      "bytes": 104633,
+      "sha256": "6c96ec4f0b6f885ddc7c354293648fa2db46e255bee81a6b5c27e65d7ac3f6aa"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_gripper_base.glb",
+      "bytes": 981812,
+      "sha256": "f0cc44fc8bfa5b36beaa2a3b14e6537fa2837a77650d9d620b4a216dc9134eec"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_gripper_spacer.glb",
+      "bytes": 2120120,
+      "sha256": "86d00533bda193b60f795366f762d41a7317cddba43e57016b03936cdd2cbcdb"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_left_finger.glb",
+      "bytes": 38732,
+      "sha256": "6bb491f21a6528fdba7ef07420680e018279945d5333cc44b37fb66b645fbf27"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link0.glb",
+      "bytes": 1316832,
+      "sha256": "e8635872c800a52c810b724e2c6487792b03b87868b96a50bbb01233e7205502"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link1.glb",
+      "bytes": 157808,
+      "sha256": "f2f573b4ee30da7411104429b9e28d5af37230b09a74a34c383534bec9a5caa7"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link2.glb",
+      "bytes": 158376,
+      "sha256": "464d1be0e2cb8b2b92fc2eb3de96cb32f1c863f714da665f3a43bf3da24ff574"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link3.glb",
+      "bytes": 421844,
+      "sha256": "10215bef11bca8c0ecbefeaede05ec31f822e8202e9e44ae5661f4044483122d"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link4.glb",
+      "bytes": 427108,
+      "sha256": "02cea46e6bdbb55a73289f56b6f89fc6f035d09f552d611b4aa245271c5614c2"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link5.glb",
+      "bytes": 576744,
+      "sha256": "d9f8fe8174c998f267d0ad1023ecf609e9549a2dc033b78f3b0c69ea1b9fa38a"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link6.glb",
+      "bytes": 909572,
+      "sha256": "8230427bdd53d0a190b0417d3e78fe8a6bf9947dc2bacd1f816a905786e0b5e5"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_link7.glb",
+      "bytes": 789588,
+      "sha256": "fcf1a2e0ea6fb5364b28b02b045133d99fcbfc294321021629609d15a4ab7600"
+    },
+    {
+      "url": "assets/scene/meshes/fr3_right_finger.glb",
+      "bytes": 38732,
+      "sha256": "313b463056d280b6e7793b61c853b4b1363f2f6fcace61b03256a339e42c26dd"
+    },
+    {
+      "url": "assets/scene/meshes/table-texture-2048.jpg",
+      "bytes": 1951536,
+      "sha256": "e525b2b9b1e5348862650209e03eb04c8e12e29998661b6eaf1bbf6d60c982ed"
+    },
+    {
+      "url": "assets/scene/meshes/table.glb",
+      "bytes": 3891588,
+      "sha256": "cb0ebd8ad6438c1160f095d902bf55415f9d643f8c6990a186a052251fe7951a"
+    },
+    {
+      "url": "assets/scene/meshes/wrist_camera_bracket_visual.glb",
+      "bytes": 144308,
+      "sha256": "3b18b919b13a3a3bb033bdc3a83c7a14cca220b00e3ba4eb25214cf3d0b79799"
+    },
+    {
+      "url": "assets/scene/meshes/wrist_camera_d405_visual.glb",
+      "bytes": 152572,
+      "sha256": "b0c36c817ddfc9c4589066d685eb5d2eb0e45919d69249157d0814714f22e5d9"
+    },
+    {
+      "url": "assets/scene/native-reference.json",
+      "bytes": 50691,
+      "sha256": "67ee0a6d22529efb94ccf5f710ec6d01cf44fba4a34f629cf4ca6199b59d3289"
+    },
+    {
+      "url": "assets/scene/native/background.png",
+      "bytes": 84545,
+      "sha256": "af62aad5b0e6f9666f5247c235230c2b6a99b14345737ab167df8d5a5e7573b3"
+    },
+    {
+      "url": "assets/scene/scene-spec.json",
+      "bytes": 1229924,
+      "sha256": "88ffda59ffad840d7156d082bf8794e397ed33fc5b4b8df462d53dff214ecf26"
+    },
+    {
+      "url": "assets/policy/manifest.json",
+      "bytes": 4570,
+      "sha256": "66daad63b3829a00dddf053c4e90b32aed8b5a645ec588b02251fb7faf17e2ea"
+    },
+    {
+      "url": "assets/policy/pusht-rgb-f32.onnx",
+      "bytes": 660474,
+      "sha256": "2068640e068819b15a0e5184d562ec696a7f1eb87a0a0bc651708ab4fc66d5da"
+    },
+    {
+      "url": "assets/policy/weights-00.bin",
+      "bytes": 16660480,
+      "sha256": "6405120df5fb7b233fbabdf511daa29912d5d8820d659798219074f110d11544"
+    },
+    {
+      "url": "assets/policy/weights-01.bin",
+      "bytes": 15335424,
+      "sha256": "20a999252cd3f816ba87a3d32b501a8e5db3070bca35d6cdd6c6099d72a31b56"
+    },
+    {
+      "url": "assets/policy/weights-02.bin",
+      "bytes": 16515072,
+      "sha256": "2fb48290ddf10713fb21ef0e7c94bb9a807a114016c0e5364c6f89f86af532fb"
+    },
+    {
+      "url": "assets/policy/weights-03.bin",
+      "bytes": 16515072,
+      "sha256": "acc519b3490e39a59359b71997f6a5a94d68b15bdb723c593d030b7e55c2189b"
+    },
+    {
+      "url": "assets/policy/weights-04.bin",
+      "bytes": 16515072,
+      "sha256": "63c882adbbf0b31a27ded24229630fcf4fbb86d0896fcf427f62259425bc2a13"
+    },
+    {
+      "url": "assets/policy/weights-05.bin",
+      "bytes": 5554176,
+      "sha256": "38dbff5176c14b7478447c9cc082baffc3d42874839bf0b52c316ca5820d3157"
+    },
+    {
+      "url": "vendor/ort/runtime-manifest.json",
+      "bytes": 516,
+      "sha256": "8c07fed8ce4436ccc6672c9c2acf4926aaa87a76a7d60107a3c528e97be3c10f"
+    },
+    {
+      "url": "vendor/ort/ort-wasm-simd-threaded.asyncify.part-0.bin",
+      "bytes": 16777216,
+      "sha256": "273f77c856c0eae1945c74e67aa0a655cf96eaa9665f05c3e33d9b4a6930bfd3"
+    },
+    {
+      "url": "vendor/ort/ort-wasm-simd-threaded.asyncify.part-1.bin",
+      "bytes": 11970522,
+      "sha256": "26d616bf5474508679753aef352929a74a42209b3ff179487d952f0ae58017a2"
+    },
+    {
+      "url": "vendor/physx/physx-js-webidl.wasm",
+      "bytes": 5343796,
+      "sha256": "915cd2a44b4b11147114bd5a4f701326a0ab3d6a60a224b8a43481fd6af452ac"
+    },
+    {
+      "url": "assets/scene/meshes/table-ash-768.jpg",
+      "bytes": 109085,
+      "sha256": "cf048c3d9f0c1f6d0763b87d67db261fc8009818a2cc2a8a6b0f4452e5323d35"
+    },
+    {
+      "url": "assets/scene/meshes/table-oak-768.jpg",
+      "bytes": 112570,
+      "sha256": "10fb7200370b787cc37d03b2f52814cd1993123584720e9f6166fef9df67b75c"
+    },
+    {
+      "url": "assets/scene/meshes/table-walnut-768.jpg",
+      "bytes": 80316,
+      "sha256": "9e1cdf6f266241337de8a0d29802df986d708ec5cb8b60020437880a9f3d70a5"
+    },
+    {
+      "url": "assets/scene/meshes/table-birch-768.jpg",
+      "bytes": 65116,
+      "sha256": "cc821161c05dc69672e0f9d160a7905b56e807558f4fcef3ab3be20a58bbbc31"
+    }
+  ]
+}

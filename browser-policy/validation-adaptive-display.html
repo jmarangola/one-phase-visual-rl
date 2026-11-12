@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Adaptive display fallback validation</title><script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js"}}</script><style>body{font:15px system-ui;max-width:960px;margin:30px auto}canvas{width:800px;height:450px}pre{white-space:pre-wrap}</style></head><body><h1>Adaptive display fallback validation</h1><canvas></canvas><pre>Loading scene…</pre><script type="module">
+import PhysX from './vendor/physx/physx-js-webidl.mjs';import {downloadAssets,decodeJSON} from './assets.js';import{createPhysics}from'./physics.js';import{createRenderer}from'./renderer.js';import{createSpectatorPathTracer}from'./spectator-pathtracer.js';
+const out=document.querySelector('pre'),report={frames:[]};let physics,view,path;
+const tick=()=>new Promise(r=>setTimeout(r,20));
+async function finishGPU(gl){const fence=gl.fenceSync(gl.SYNC_GPU_COMMANDS_COMPLETE,0);gl.flush();try{const deadline=performance.now()+3000;while(performance.now()<deadline){const s=gl.clientWaitSync(fence,0,0);if(s===gl.ALREADY_SIGNALED||s===gl.CONDITION_SATISFIED)return;if(s===gl.WAIT_FAILED)throw Error('GPU fence failed');await tick();}throw Error('GPU timed out');}finally{gl.deleteSync(fence);}}
+function dispose(){path?.dispose();view?.dispose();physics?.dispose();}addEventListener('pagehide',dispose);
+try{const manifest=await(await fetch('./assets-manifest.json')).json(),assets=await downloadAssets(manifest,()=>{}),spec=decodeJSON(assets.get(manifest.scene.spec)),getAsset=async p=>assets.get(manifest.scene.base+p);
+physics=await createPhysics(await PhysX({wasmBinary:assets.get(manifest.physics.wasm)}),spec,{getAsset});view=await createRenderer(document.querySelector('canvas'),spec,{getAsset});view.update(physics.getBodyPoses());view.render();
+const before=view.readPolicyRGB().slice(),gl=view.renderer.getContext(),ext=gl.getExtension('WEBGL_debug_renderer_info');report.gpu=ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):'Unavailable';
+report.beforeMemory={...view.renderer.info.memory,programs:view.renderer.info.programs.length};
+const start=performance.now();
+const {createAdaptiveDisplay}=await import('./adaptive-display.js');
+path=await createAdaptiveDisplay(view,spec,{getAsset,storage:null,mode:'test',probe:async()=>({eligible:true,reason:'Validation bypasses proxy only; real scene must pass'}),onDecision:x=>report.graphics=x});
+report.elapsedMs=performance.now()-start;const after=view.readPolicyRGB();report.changedPolicyRGBBytes=before.reduce((n,v,i)=>n+(v!==after[i]),0);
+view.render();await new Promise(resolve=>setTimeout(resolve,500));report.afterMemory={...view.renderer.info.memory,programs:view.renderer.info.programs.length};report.complete=true;out.textContent=JSON.stringify(report,null,2);
+}catch(e){report.error=String(e.stack||e);out.textContent=JSON.stringify(report,null,2);dispose();}
+</script></body></html>

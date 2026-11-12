@@ -1,0 +1,1298 @@
+{
+  "version": 1,
+  "generator": "meshoptimizer 0.24.0",
+  "targetRatio": 0.03,
+  "maxRelativeError": 0.002,
+  "binary": "geometry.bin",
+  "mapping": "source asset + glTF mesh index + primitive index; meshName is the original glTF mesh name",
+  "assets": [
+    {
+      "source": "assets/scene/meshes/fr3_gripper_base.glb",
+      "sha256": "f0cc44fc8bfa5b36beaa2a3b14e6537fa2837a77650d9d620b4a216dc9134eec",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-____ӵ___-1_011-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 4506,
+          "lodTriangles": 1626,
+          "relativeError": 0.0019813645631074905,
+          "absoluteError": 0.11289775886695708,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 0,
+              "count": 815,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 9780,
+            "count": 4878,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-____ӵ___-1_010-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 3816,
+          "lodTriangles": 604,
+          "relativeError": 0.0019980878569185734,
+          "absoluteError": 0.3097036178223789,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 29292,
+              "count": 284,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 32700,
+            "count": 1812,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-____ӵ___-1_009-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 22320,
+          "lodTriangles": 1898,
+          "relativeError": 0.0019493669969961047,
+          "absoluteError": 0.3196961875073612,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 39948,
+              "count": 933,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 51144,
+            "count": 5694,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 3,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-____ӵ___-1_008-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 6114,
+          "lodTriangles": 2062,
+          "relativeError": 0.0019912400748580694,
+          "absoluteError": 0.11350068426690996,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 73920,
+              "count": 1017,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 86124,
+            "count": 6186,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 4,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 4,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-___-1_002-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 3988,
+          "lodTriangles": 1564,
+          "relativeError": 0.001999089727178216,
+          "absoluteError": 0.11392896575872502,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 110868,
+              "count": 764,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 120036,
+            "count": 4692,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 5,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 5,
+          "meshName": "fr3_gripper_base_0_solid___צ__װ___-_ת__-1_002-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 3418,
+          "lodTriangles": 1016,
+          "relativeError": 0.001982009969651699,
+          "absoluteError": 0.12956950139899703,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 138804,
+              "count": 494,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 144732,
+            "count": 3048,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_gripper_spacer.glb",
+      "sha256": "86d00533bda193b60f795366f762d41a7317cddba43e57016b03936cdd2cbcdb",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_gripper_spacer_0_agilex_to_fr3_adapter.stl",
+          "materialIndex": 0,
+          "originalTriangles": 117706,
+          "lodTriangles": 3530,
+          "relativeError": 0.0006337198428809643,
+          "absoluteError": 0.04182314536467757,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 156924,
+              "count": 1751,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 177936,
+            "count": 10590,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_left_finger.glb",
+      "sha256": "6bb491f21a6528fdba7ef07420680e018279945d5333cc44b37fb66b645fbf27",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_left_finger_0_link7.STL",
+          "materialIndex": 0,
+          "originalTriangles": 2086,
+          "lodTriangles": 782,
+          "relativeError": 0.0019811862148344517,
+          "absoluteError": 0.00015156074260072594,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 220296,
+              "count": 366,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 224688,
+            "count": 2346,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link0.glb",
+      "sha256": "e8635872c800a52c810b724e2c6487792b03b87868b96a50bbb01233e7205502",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link0_0__01_Base_URDF_5-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 10008,
+          "lodTriangles": 1102,
+          "relativeError": 0.0019962857477366924,
+          "absoluteError": 0.2701656697230703,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 234072,
+              "count": 735,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 242892,
+            "count": 3306,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link0_0__01_Base_URDF_4-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 19229,
+          "lodTriangles": 768,
+          "relativeError": 0.001988209318369627,
+          "absoluteError": 0.16394038168834868,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 256116,
+              "count": 397,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 260880,
+            "count": 2304,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "fr3_link0_0__01_Base_URDF_3-mesh",
+          "materialIndex": 2,
+          "originalTriangles": 1800,
+          "lodTriangles": 832,
+          "relativeError": 0.0019721074495464563,
+          "absoluteError": 0.2392056861707239,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 270096,
+              "count": 558,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 276792,
+            "count": 2496,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 3,
+          "meshName": "fr3_link0_0__01_Base_URDF_2-mesh",
+          "materialIndex": 2,
+          "originalTriangles": 14672,
+          "lodTriangles": 1949,
+          "relativeError": 0.001993463607504964,
+          "absoluteError": 0.44979557597872954,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 286776,
+              "count": 1050,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 299376,
+            "count": 5847,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 4,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 4,
+          "meshName": "fr3_link0_0__01_Base_URDF_1-mesh",
+          "materialIndex": 2,
+          "originalTriangles": 7242,
+          "lodTriangles": 1525,
+          "relativeError": 0.0019959707278758287,
+          "absoluteError": 0.3047762877167415,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 322764,
+              "count": 825,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 332664,
+            "count": 4575,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 5,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 5,
+          "meshName": "fr3_link0_0__01_Base_URDF_0-mesh",
+          "materialIndex": 3,
+          "originalTriangles": 880,
+          "lodTriangles": 95,
+          "relativeError": 0.001064023468643427,
+          "absoluteError": 0.16014254585741128,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 350964,
+              "count": 68,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 351780,
+            "count": 285,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 6,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 6,
+          "meshName": "fr3_link0_0__01_Base_URDF-mesh",
+          "materialIndex": 4,
+          "originalTriangles": 9339,
+          "lodTriangles": 622,
+          "relativeError": 0.0019978273194283247,
+          "absoluteError": 0.30697554463949217,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 352920,
+              "count": 362,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 357264,
+            "count": 1866,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link1.glb",
+      "sha256": "f2f573b4ee30da7411104429b9e28d5af37230b09a74a34c383534bec9a5caa7",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link1_0__02_03_SHOULDER_URDF_UU-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 8028,
+          "lodTriangles": 1052,
+          "relativeError": 0.0019744194578379393,
+          "absoluteError": 0.487681606085971,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 364728,
+              "count": 543,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 371244,
+            "count": 3156,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link2.glb",
+      "sha256": "464d1be0e2cb8b2b92fc2eb3de96cb32f1c863f714da665f3a43bf3da24ff574",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link2_0__02_03_SHOULDER_URDF_UU-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 8028,
+          "lodTriangles": 1023,
+          "relativeError": 0.00196413928642869,
+          "absoluteError": 0.4851424337182735,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 383868,
+              "count": 530,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 390228,
+            "count": 3069,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link3.glb",
+      "sha256": "10215bef11bca8c0ecbefeaede05ec31f822e8202e9e44ae5661f4044483122d",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link3_0__04_05_ELBOW_URDF_0-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 14898,
+          "lodTriangles": 1100,
+          "relativeError": 0.0019580917432904243,
+          "absoluteError": 0.23879884311348576,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 402504,
+              "count": 580,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 409464,
+            "count": 3300,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link3_0__04_05_ELBOW_URDF-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 6668,
+          "lodTriangles": 1408,
+          "relativeError": 0.001996421255171299,
+          "absoluteError": 0.3843090810644014,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 422664,
+              "count": 736,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 431496,
+            "count": 4224,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link4.glb",
+      "sha256": "02cea46e6bdbb55a73289f56b6f89fc6f035d09f552d611b4aa245271c5614c2",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link4_0__04_05_ELBOW_URDF_0-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 14898,
+          "lodTriangles": 1088,
+          "relativeError": 0.0019358190475031734,
+          "absoluteError": 0.236082638253313,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 448392,
+              "count": 574,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 455280,
+            "count": 3264,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link4_0__04_05_ELBOW_URDF-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 6668,
+          "lodTriangles": 1421,
+          "relativeError": 0.001971900463104248,
+          "absoluteError": 0.37958891346352175,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 468336,
+              "count": 742,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 477240,
+            "count": 4263,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link5.glb",
+      "sha256": "d9f8fe8174c998f267d0ad1023ecf609e9549a2dc033b78f3b0c69ea1b9fa38a",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link5_0__06_LOWER_ARM_URDF_1-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 17630,
+          "lodTriangles": 539,
+          "relativeError": 0.0019929863046854734,
+          "absoluteError": 0.5278667634062728,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 494292,
+              "count": 312,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 498036,
+            "count": 1617,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link5_0__06_LOWER_ARM_URDF_0-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 871,
+          "lodTriangles": 350,
+          "relativeError": 0.0017830809811130166,
+          "absoluteError": 0.140228982975807,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 504504,
+              "count": 239,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 507372,
+            "count": 1050,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "fr3_link5_0__06_LOWER_ARM_URDF-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 8644,
+          "lodTriangles": 674,
+          "relativeError": 0.0019505956443026662,
+          "absoluteError": 0.6005883869752999,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 511572,
+              "count": 368,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 515988,
+            "count": 2022,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link6.glb",
+      "sha256": "8230427bdd53d0a190b0417d3e78fe8a6bf9947dc2bacd1f816a905786e0b5e5",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_6-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 122,
+          "lodTriangles": 122,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 524076,
+              "count": 127,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 525600,
+            "count": 366,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_5-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 25679,
+          "lodTriangles": 1318,
+          "relativeError": 0.0019664322026073933,
+          "absoluteError": 0.3375090603785722,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 527064,
+              "count": 725,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 535764,
+            "count": 3954,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_4-mesh",
+          "materialIndex": 2,
+          "originalTriangles": 2473,
+          "lodTriangles": 285,
+          "relativeError": 0.001999933272600174,
+          "absoluteError": 0.05119530573317377,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 551580,
+              "count": 186,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 553812,
+            "count": 855,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 3,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_3-mesh",
+          "materialIndex": 3,
+          "originalTriangles": 10,
+          "lodTriangles": 10,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 557232,
+              "count": 12,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 557376,
+            "count": 30,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 4,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 4,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_2-mesh",
+          "materialIndex": 4,
+          "originalTriangles": 146,
+          "lodTriangles": 146,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 557496,
+              "count": 133,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 559092,
+            "count": 438,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 5,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 5,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_1-mesh",
+          "materialIndex": 5,
+          "originalTriangles": 16295,
+          "lodTriangles": 1268,
+          "relativeError": 0.001995417522266507,
+          "absoluteError": 0.3585522558806744,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 560844,
+              "count": 730,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 569604,
+            "count": 3804,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 6,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 6,
+          "meshName": "fr3_link6_0__07_WRIST_URDF_0-mesh",
+          "materialIndex": 5,
+          "originalTriangles": 108,
+          "lodTriangles": 108,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 584820,
+              "count": 124,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 586308,
+            "count": 324,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 7,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 7,
+          "meshName": "fr3_link6_0__07_WRIST_URDF-mesh",
+          "materialIndex": 6,
+          "originalTriangles": 4,
+          "lodTriangles": 4,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 587604,
+              "count": 6,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 587676,
+            "count": 12,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_link7.glb",
+      "sha256": "fcf1a2e0ea6fb5364b28b02b045133d99fcbfc294321021629609d15a4ab7600",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_link7_0__08_FLANGE_URDF_2-mesh",
+          "materialIndex": 0,
+          "originalTriangles": 8510,
+          "lodTriangles": 786,
+          "relativeError": 0.0019395342096686363,
+          "absoluteError": 0.13295035559830382,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 587724,
+              "count": 422,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 592788,
+            "count": 2358,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "fr3_link7_0__08_FLANGE_URDF_1-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 16469,
+          "lodTriangles": 1216,
+          "relativeError": 0.0019508390687406063,
+          "absoluteError": 0.18530254873967422,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 602220,
+              "count": 690,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 610500,
+            "count": 3648,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "fr3_link7_0__08_FLANGE_URDF_0-mesh",
+          "materialIndex": 1,
+          "originalTriangles": 6887,
+          "lodTriangles": 2627,
+          "relativeError": 0.001998513238504529,
+          "absoluteError": 0.17586916498839855,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 625092,
+              "count": 1382,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 641676,
+            "count": 7881,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 3,
+          "meshName": "fr3_link7_0__08_FLANGE_URDF-mesh",
+          "materialIndex": 2,
+          "originalTriangles": 6092,
+          "lodTriangles": 1966,
+          "relativeError": 0.0019270182820037007,
+          "absoluteError": 0.026951105061422398,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 673200,
+              "count": 995,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 685140,
+            "count": 5898,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/fr3_right_finger.glb",
+      "sha256": "313b463056d280b6e7793b61c853b4b1363f2f6fcace61b03256a339e42c26dd",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "fr3_right_finger_0_link8.STL",
+          "materialIndex": 0,
+          "originalTriangles": 2086,
+          "lodTriangles": 782,
+          "relativeError": 0.0019811862148344517,
+          "absoluteError": 0.00015156074260072594,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 708732,
+              "count": 366,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 713124,
+            "count": 2346,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/table.glb",
+      "sha256": "cb0ebd8ad6438c1160f095d902bf55415f9d643f8c6990a186a052251fe7951a",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "Cube.002",
+          "materialIndex": 0,
+          "originalTriangles": 140,
+          "lodTriangles": 140,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 722508,
+              "count": 222,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "NORMAL": {
+              "byteOffset": 725172,
+              "count": 222,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "TEXCOORD_0": {
+              "byteOffset": 727836,
+              "count": 222,
+              "itemSize": 2,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 729612,
+            "count": 420,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "Cube.005",
+          "materialIndex": 1,
+          "originalTriangles": 12,
+          "lodTriangles": 12,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 731292,
+              "count": 24,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "NORMAL": {
+              "byteOffset": 731580,
+              "count": 24,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "TEXCOORD_0": {
+              "byteOffset": 731868,
+              "count": 24,
+              "itemSize": 2,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 732060,
+            "count": 36,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 2,
+          "meshName": "Cube.001",
+          "materialIndex": 1,
+          "originalTriangles": 192,
+          "lodTriangles": 192,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 732204,
+              "count": 313,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "NORMAL": {
+              "byteOffset": 735960,
+              "count": 313,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "TEXCOORD_0": {
+              "byteOffset": 739716,
+              "count": 313,
+              "itemSize": 2,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 742220,
+            "count": 576,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 3,
+          "meshName": "Cube.003",
+          "materialIndex": 1,
+          "originalTriangles": 192,
+          "lodTriangles": 192,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 744524,
+              "count": 343,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "NORMAL": {
+              "byteOffset": 748640,
+              "count": 343,
+              "itemSize": 3,
+              "componentType": "float32"
+            },
+            "TEXCOORD_0": {
+              "byteOffset": 752756,
+              "count": 343,
+              "itemSize": 2,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 755500,
+            "count": 576,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/wrist_camera_bracket_visual.glb",
+      "sha256": "3b18b919b13a3a3bb033bdc3a83c7a14cca220b00e3ba4eb25214cf3d0b79799",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "wrist_camera_bracket_visual_0_d405_bracket_15deg.stl",
+          "materialIndex": 0,
+          "originalTriangles": 7932,
+          "lodTriangles": 766,
+          "relativeError": 0.001950772712007165,
+          "absoluteError": 0.0000945822477931707,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 757804,
+              "count": 377,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 762328,
+            "count": 2298,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    },
+    {
+      "source": "assets/scene/meshes/wrist_camera_d405_visual.glb",
+      "sha256": "b0c36c817ddfc9c4589066d685eb5d2eb0e45919d69249157d0814714f22e5d9",
+      "primitives": [
+        {
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 0,
+          "meshName": "wrist_camera_d405_visual_0_d405",
+          "materialIndex": 0,
+          "originalTriangles": 3854,
+          "lodTriangles": 1340,
+          "relativeError": 0.0019953958690166473,
+          "absoluteError": 0.00008398513172976074,
+          "simplified": true,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 771520,
+              "count": 687,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 779764,
+            "count": 4020,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        },
+        {
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "primitiveOrdinal": 1,
+          "meshName": "wrist_camera_d405_visual_0_d405_1",
+          "materialIndex": 1,
+          "originalTriangles": 38,
+          "lodTriangles": 38,
+          "relativeError": 0,
+          "absoluteError": 0,
+          "simplified": false,
+          "attributes": {
+            "POSITION": {
+              "byteOffset": 795844,
+              "count": 40,
+              "itemSize": 3,
+              "componentType": "float32"
+            }
+          },
+          "indices": {
+            "byteOffset": 796324,
+            "count": 114,
+            "itemSize": 1,
+            "componentType": "uint32"
+          }
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "originalTriangles": 410698,
+    "lodTriangles": 41948,
+    "binaryBytes": 796780,
+    "reduction": 0.8978616891243687
+  }
+}

@@ -1,0 +1,1205 @@
+{
+  "version": 1,
+  "playbackRate": 1,
+  "ordering": "Successful trials shortest first, then failures in recorded order. No trials omitted.",
+  "tasks": [
+    {
+      "id": "pusht",
+      "name": "Push-T",
+      "policies": [
+        {
+          "id": "rl",
+          "name": "One Phase RL",
+          "seed": 12234,
+          "checkpointStep": 102432768,
+          "successes": 23,
+          "total": 30,
+          "episodes": [
+            {
+              "id": 1,
+              "outcome": "success",
+              "duration": 2.2666666666666666,
+              "src": "static/rollouts/pusht-rl-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 17,
+              "outcome": "success",
+              "duration": 2.3,
+              "src": "static/rollouts/pusht-rl-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 28,
+              "outcome": "success",
+              "duration": 4.433333333333334,
+              "src": "static/rollouts/pusht-rl-28.mp4",
+              "recordingOrder": 28
+            },
+            {
+              "id": 27,
+              "outcome": "success",
+              "duration": 4.7,
+              "src": "static/rollouts/pusht-rl-27.mp4",
+              "recordingOrder": 27
+            },
+            {
+              "id": 9,
+              "outcome": "success",
+              "duration": 5.0,
+              "src": "static/rollouts/pusht-rl-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 11,
+              "outcome": "success",
+              "duration": 5.633333333333334,
+              "src": "static/rollouts/pusht-rl-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 25,
+              "outcome": "success",
+              "duration": 5.733333333333333,
+              "src": "static/rollouts/pusht-rl-25.mp4",
+              "recordingOrder": 25
+            },
+            {
+              "id": 29,
+              "outcome": "success",
+              "duration": 5.733333333333333,
+              "src": "static/rollouts/pusht-rl-29.mp4",
+              "recordingOrder": 29
+            },
+            {
+              "id": 19,
+              "outcome": "success",
+              "duration": 5.833333333333333,
+              "src": "static/rollouts/pusht-rl-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 7,
+              "outcome": "success",
+              "duration": 5.9,
+              "src": "static/rollouts/pusht-rl-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 15,
+              "outcome": "success",
+              "duration": 6.366666666666666,
+              "src": "static/rollouts/pusht-rl-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 22,
+              "outcome": "success",
+              "duration": 6.766666666666667,
+              "src": "static/rollouts/pusht-rl-22.mp4",
+              "recordingOrder": 22
+            },
+            {
+              "id": 2,
+              "outcome": "success",
+              "duration": 6.866666666666666,
+              "src": "static/rollouts/pusht-rl-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 13,
+              "outcome": "success",
+              "duration": 7.333333333333333,
+              "src": "static/rollouts/pusht-rl-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 16,
+              "outcome": "success",
+              "duration": 7.366666666666666,
+              "src": "static/rollouts/pusht-rl-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 6,
+              "outcome": "success",
+              "duration": 7.666666666666667,
+              "src": "static/rollouts/pusht-rl-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 23,
+              "outcome": "success",
+              "duration": 7.9,
+              "src": "static/rollouts/pusht-rl-23.mp4",
+              "recordingOrder": 23
+            },
+            {
+              "id": 10,
+              "outcome": "success",
+              "duration": 8.033333333333333,
+              "src": "static/rollouts/pusht-rl-10.mp4",
+              "recordingOrder": 10
+            },
+            {
+              "id": 21,
+              "outcome": "success",
+              "duration": 9.266666666666667,
+              "src": "static/rollouts/pusht-rl-21.mp4",
+              "recordingOrder": 21
+            },
+            {
+              "id": 3,
+              "outcome": "success",
+              "duration": 9.333333333333334,
+              "src": "static/rollouts/pusht-rl-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 14,
+              "outcome": "success",
+              "duration": 10.033333333333333,
+              "src": "static/rollouts/pusht-rl-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 5,
+              "outcome": "success",
+              "duration": 11.533333333333333,
+              "src": "static/rollouts/pusht-rl-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 26,
+              "outcome": "success",
+              "duration": 12.5,
+              "src": "static/rollouts/pusht-rl-26.mp4",
+              "recordingOrder": 26
+            },
+            {
+              "id": 0,
+              "outcome": "failure",
+              "duration": 11.9,
+              "src": "static/rollouts/pusht-rl-00.mp4",
+              "recordingOrder": 0
+            },
+            {
+              "id": 4,
+              "outcome": "failure",
+              "duration": 6.866666666666666,
+              "src": "static/rollouts/pusht-rl-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 8,
+              "outcome": "failure",
+              "duration": 10.066666666666666,
+              "src": "static/rollouts/pusht-rl-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 12,
+              "outcome": "failure",
+              "duration": 14.3,
+              "src": "static/rollouts/pusht-rl-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 18,
+              "outcome": "failure",
+              "duration": 17.433333333333334,
+              "src": "static/rollouts/pusht-rl-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 20,
+              "outcome": "failure",
+              "duration": 17.066666666666666,
+              "src": "static/rollouts/pusht-rl-20.mp4",
+              "recordingOrder": 20
+            },
+            {
+              "id": 24,
+              "outcome": "failure",
+              "duration": 10.233333333333333,
+              "src": "static/rollouts/pusht-rl-24.mp4",
+              "recordingOrder": 24
+            }
+          ]
+        },
+        {
+          "id": "distillation",
+          "name": "Distillation",
+          "seed": 8791374,
+          "checkpointStep": 169267200,
+          "successes": 9,
+          "total": 30,
+          "episodes": [
+            {
+              "id": 26,
+              "outcome": "success",
+              "duration": 3.2333333333333334,
+              "src": "static/rollouts/pusht-distillation-26.mp4",
+              "recordingOrder": 26
+            },
+            {
+              "id": 1,
+              "outcome": "success",
+              "duration": 3.3333333333333335,
+              "src": "static/rollouts/pusht-distillation-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 22,
+              "outcome": "success",
+              "duration": 3.8333333333333335,
+              "src": "static/rollouts/pusht-distillation-22.mp4",
+              "recordingOrder": 22
+            },
+            {
+              "id": 7,
+              "outcome": "success",
+              "duration": 5.333333333333333,
+              "src": "static/rollouts/pusht-distillation-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 6,
+              "outcome": "success",
+              "duration": 6.666666666666667,
+              "src": "static/rollouts/pusht-distillation-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 11,
+              "outcome": "success",
+              "duration": 7.7,
+              "src": "static/rollouts/pusht-distillation-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 29,
+              "outcome": "success",
+              "duration": 7.7,
+              "src": "static/rollouts/pusht-distillation-29.mp4",
+              "recordingOrder": 29
+            },
+            {
+              "id": 14,
+              "outcome": "success",
+              "duration": 9.933333333333334,
+              "src": "static/rollouts/pusht-distillation-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 0,
+              "outcome": "success",
+              "duration": 12.166666666666666,
+              "src": "static/rollouts/pusht-distillation-00.mp4",
+              "recordingOrder": 0
+            },
+            {
+              "id": 2,
+              "outcome": "failure",
+              "duration": 17.3,
+              "src": "static/rollouts/pusht-distillation-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 3,
+              "outcome": "failure",
+              "duration": 17.433333333333334,
+              "src": "static/rollouts/pusht-distillation-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 4,
+              "outcome": "failure",
+              "duration": 17.7,
+              "src": "static/rollouts/pusht-distillation-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 5,
+              "outcome": "failure",
+              "duration": 16.866666666666667,
+              "src": "static/rollouts/pusht-distillation-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 8,
+              "outcome": "failure",
+              "duration": 17.866666666666667,
+              "src": "static/rollouts/pusht-distillation-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 9,
+              "outcome": "failure",
+              "duration": 17.833333333333332,
+              "src": "static/rollouts/pusht-distillation-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 10,
+              "outcome": "failure",
+              "duration": 17.0,
+              "src": "static/rollouts/pusht-distillation-10.mp4",
+              "recordingOrder": 10
+            },
+            {
+              "id": 12,
+              "outcome": "failure",
+              "duration": 17.266666666666666,
+              "src": "static/rollouts/pusht-distillation-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 13,
+              "outcome": "failure",
+              "duration": 19.066666666666666,
+              "src": "static/rollouts/pusht-distillation-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 15,
+              "outcome": "failure",
+              "duration": 17.2,
+              "src": "static/rollouts/pusht-distillation-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 16,
+              "outcome": "failure",
+              "duration": 18.0,
+              "src": "static/rollouts/pusht-distillation-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 17,
+              "outcome": "failure",
+              "duration": 17.966666666666665,
+              "src": "static/rollouts/pusht-distillation-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 18,
+              "outcome": "failure",
+              "duration": 17.833333333333332,
+              "src": "static/rollouts/pusht-distillation-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 19,
+              "outcome": "failure",
+              "duration": 17.033333333333335,
+              "src": "static/rollouts/pusht-distillation-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 20,
+              "outcome": "failure",
+              "duration": 17.033333333333335,
+              "src": "static/rollouts/pusht-distillation-20.mp4",
+              "recordingOrder": 20
+            },
+            {
+              "id": 21,
+              "outcome": "failure",
+              "duration": 19.733333333333334,
+              "src": "static/rollouts/pusht-distillation-21.mp4",
+              "recordingOrder": 21
+            },
+            {
+              "id": 23,
+              "outcome": "failure",
+              "duration": 21.633333333333333,
+              "src": "static/rollouts/pusht-distillation-23.mp4",
+              "recordingOrder": 23
+            },
+            {
+              "id": 24,
+              "outcome": "failure",
+              "duration": 17.733333333333334,
+              "src": "static/rollouts/pusht-distillation-24.mp4",
+              "recordingOrder": 24
+            },
+            {
+              "id": 25,
+              "outcome": "failure",
+              "duration": 17.566666666666666,
+              "src": "static/rollouts/pusht-distillation-25.mp4",
+              "recordingOrder": 25
+            },
+            {
+              "id": 27,
+              "outcome": "failure",
+              "duration": 17.2,
+              "src": "static/rollouts/pusht-distillation-27.mp4",
+              "recordingOrder": 27
+            },
+            {
+              "id": 28,
+              "outcome": "failure",
+              "duration": 17.033333333333335,
+              "src": "static/rollouts/pusht-distillation-28.mp4",
+              "recordingOrder": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peg",
+      "name": "Peg insertion",
+      "policies": [
+        {
+          "id": "rl",
+          "name": "One Phase RL",
+          "seed": 8190447,
+          "checkpointStep": 140935168,
+          "successes": 20,
+          "total": 30,
+          "episodes": [
+            {
+              "id": 23,
+              "outcome": "success",
+              "duration": 2.1,
+              "src": "static/rollouts/peg-rl-23.mp4",
+              "recordingOrder": 23
+            },
+            {
+              "id": 1,
+              "outcome": "success",
+              "duration": 2.2333333333333334,
+              "src": "static/rollouts/peg-rl-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 16,
+              "outcome": "success",
+              "duration": 2.5,
+              "src": "static/rollouts/peg-rl-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 26,
+              "outcome": "success",
+              "duration": 2.5,
+              "src": "static/rollouts/peg-rl-26.mp4",
+              "recordingOrder": 26
+            },
+            {
+              "id": 10,
+              "outcome": "success",
+              "duration": 2.533333333333333,
+              "src": "static/rollouts/peg-rl-10.mp4",
+              "recordingOrder": 10
+            },
+            {
+              "id": 15,
+              "outcome": "success",
+              "duration": 2.7666666666666666,
+              "src": "static/rollouts/peg-rl-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 9,
+              "outcome": "success",
+              "duration": 2.933333333333333,
+              "src": "static/rollouts/peg-rl-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 18,
+              "outcome": "success",
+              "duration": 2.933333333333333,
+              "src": "static/rollouts/peg-rl-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 19,
+              "outcome": "success",
+              "duration": 3.2333333333333334,
+              "src": "static/rollouts/peg-rl-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 12,
+              "outcome": "success",
+              "duration": 4.433333333333334,
+              "src": "static/rollouts/peg-rl-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 4,
+              "outcome": "success",
+              "duration": 4.533333333333333,
+              "src": "static/rollouts/peg-rl-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 0,
+              "outcome": "success",
+              "duration": 4.666666666666667,
+              "src": "static/rollouts/peg-rl-00.mp4",
+              "recordingOrder": 0
+            },
+            {
+              "id": 27,
+              "outcome": "success",
+              "duration": 5.766666666666667,
+              "src": "static/rollouts/peg-rl-27.mp4",
+              "recordingOrder": 27
+            },
+            {
+              "id": 25,
+              "outcome": "success",
+              "duration": 6.1,
+              "src": "static/rollouts/peg-rl-25.mp4",
+              "recordingOrder": 25
+            },
+            {
+              "id": 5,
+              "outcome": "success",
+              "duration": 9.0,
+              "src": "static/rollouts/peg-rl-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 2,
+              "outcome": "success",
+              "duration": 17.666666666666668,
+              "src": "static/rollouts/peg-rl-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 6,
+              "outcome": "success",
+              "duration": 17.766666666666666,
+              "src": "static/rollouts/peg-rl-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 13,
+              "outcome": "success",
+              "duration": 18.2,
+              "src": "static/rollouts/peg-rl-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 22,
+              "outcome": "success",
+              "duration": 18.5,
+              "src": "static/rollouts/peg-rl-22.mp4",
+              "recordingOrder": 22
+            },
+            {
+              "id": 14,
+              "outcome": "success",
+              "duration": 19.7,
+              "src": "static/rollouts/peg-rl-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 3,
+              "outcome": "failure",
+              "duration": 17.633333333333333,
+              "src": "static/rollouts/peg-rl-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 7,
+              "outcome": "failure",
+              "duration": 16.9,
+              "src": "static/rollouts/peg-rl-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 8,
+              "outcome": "failure",
+              "duration": 16.933333333333334,
+              "src": "static/rollouts/peg-rl-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 11,
+              "outcome": "failure",
+              "duration": 17.466666666666665,
+              "src": "static/rollouts/peg-rl-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 17,
+              "outcome": "failure",
+              "duration": 16.833333333333332,
+              "src": "static/rollouts/peg-rl-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 20,
+              "outcome": "failure",
+              "duration": 17.633333333333333,
+              "src": "static/rollouts/peg-rl-20.mp4",
+              "recordingOrder": 20
+            },
+            {
+              "id": 21,
+              "outcome": "failure",
+              "duration": 16.833333333333332,
+              "src": "static/rollouts/peg-rl-21.mp4",
+              "recordingOrder": 21
+            },
+            {
+              "id": 24,
+              "outcome": "failure",
+              "duration": 17.1,
+              "src": "static/rollouts/peg-rl-24.mp4",
+              "recordingOrder": 24
+            },
+            {
+              "id": 28,
+              "outcome": "failure",
+              "duration": 17.3,
+              "src": "static/rollouts/peg-rl-28.mp4",
+              "recordingOrder": 28
+            },
+            {
+              "id": 29,
+              "outcome": "failure",
+              "duration": 18.066666666666666,
+              "src": "static/rollouts/peg-rl-29.mp4",
+              "recordingOrder": 29
+            }
+          ]
+        },
+        {
+          "id": "distillation",
+          "name": "Distillation",
+          "seed": 9912672,
+          "checkpointStep": 125440000,
+          "successes": 7,
+          "total": 30,
+          "episodes": [
+            {
+              "id": 23,
+              "outcome": "success",
+              "duration": 2.0,
+              "src": "static/rollouts/peg-distillation-23.mp4",
+              "recordingOrder": 23
+            },
+            {
+              "id": 11,
+              "outcome": "success",
+              "duration": 2.2,
+              "src": "static/rollouts/peg-distillation-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 27,
+              "outcome": "success",
+              "duration": 3.933333333333333,
+              "src": "static/rollouts/peg-distillation-27.mp4",
+              "recordingOrder": 27
+            },
+            {
+              "id": 20,
+              "outcome": "success",
+              "duration": 4.5,
+              "src": "static/rollouts/peg-distillation-20.mp4",
+              "recordingOrder": 20
+            },
+            {
+              "id": 1,
+              "outcome": "success",
+              "duration": 5.0,
+              "src": "static/rollouts/peg-distillation-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 6,
+              "outcome": "success",
+              "duration": 6.266666666666667,
+              "src": "static/rollouts/peg-distillation-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 0,
+              "outcome": "success",
+              "duration": 6.933333333333334,
+              "src": "static/rollouts/peg-distillation-00.mp4",
+              "recordingOrder": 0
+            },
+            {
+              "id": 2,
+              "outcome": "failure",
+              "duration": 17.433333333333334,
+              "src": "static/rollouts/peg-distillation-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 3,
+              "outcome": "failure",
+              "duration": 17.566666666666666,
+              "src": "static/rollouts/peg-distillation-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 4,
+              "outcome": "failure",
+              "duration": 16.966666666666665,
+              "src": "static/rollouts/peg-distillation-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 5,
+              "outcome": "failure",
+              "duration": 17.6,
+              "src": "static/rollouts/peg-distillation-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 7,
+              "outcome": "failure",
+              "duration": 12.966666666666667,
+              "src": "static/rollouts/peg-distillation-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 8,
+              "outcome": "failure",
+              "duration": 12.4,
+              "src": "static/rollouts/peg-distillation-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 9,
+              "outcome": "failure",
+              "duration": 17.366666666666667,
+              "src": "static/rollouts/peg-distillation-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 10,
+              "outcome": "failure",
+              "duration": 19.433333333333334,
+              "src": "static/rollouts/peg-distillation-10.mp4",
+              "recordingOrder": 10
+            },
+            {
+              "id": 12,
+              "outcome": "failure",
+              "duration": 17.466666666666665,
+              "src": "static/rollouts/peg-distillation-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 13,
+              "outcome": "failure",
+              "duration": 17.266666666666666,
+              "src": "static/rollouts/peg-distillation-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 14,
+              "outcome": "failure",
+              "duration": 18.033333333333335,
+              "src": "static/rollouts/peg-distillation-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 15,
+              "outcome": "failure",
+              "duration": 17.933333333333334,
+              "src": "static/rollouts/peg-distillation-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 16,
+              "outcome": "failure",
+              "duration": 17.866666666666667,
+              "src": "static/rollouts/peg-distillation-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 17,
+              "outcome": "failure",
+              "duration": 16.866666666666667,
+              "src": "static/rollouts/peg-distillation-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 18,
+              "outcome": "failure",
+              "duration": 17.166666666666668,
+              "src": "static/rollouts/peg-distillation-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 19,
+              "outcome": "failure",
+              "duration": 18.766666666666666,
+              "src": "static/rollouts/peg-distillation-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 21,
+              "outcome": "failure",
+              "duration": 17.033333333333335,
+              "src": "static/rollouts/peg-distillation-21.mp4",
+              "recordingOrder": 21
+            },
+            {
+              "id": 22,
+              "outcome": "failure",
+              "duration": 16.966666666666665,
+              "src": "static/rollouts/peg-distillation-22.mp4",
+              "recordingOrder": 22
+            },
+            {
+              "id": 24,
+              "outcome": "failure",
+              "duration": 17.8,
+              "src": "static/rollouts/peg-distillation-24.mp4",
+              "recordingOrder": 24
+            },
+            {
+              "id": 25,
+              "outcome": "failure",
+              "duration": 17.633333333333333,
+              "src": "static/rollouts/peg-distillation-25.mp4",
+              "recordingOrder": 25
+            },
+            {
+              "id": 26,
+              "outcome": "failure",
+              "duration": 17.133333333333333,
+              "src": "static/rollouts/peg-distillation-26.mp4",
+              "recordingOrder": 26
+            },
+            {
+              "id": 28,
+              "outcome": "failure",
+              "duration": 18.2,
+              "src": "static/rollouts/peg-distillation-28.mp4",
+              "recordingOrder": 28
+            },
+            {
+              "id": 29,
+              "outcome": "failure",
+              "duration": 17.433333333333334,
+              "src": "static/rollouts/peg-distillation-29.mp4",
+              "recordingOrder": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cube",
+      "name": "Pick-Cube",
+      "policies": [
+        {
+          "id": "rl",
+          "name": "One Phase RL",
+          "seed": 8371526,
+          "checkpointStep": 155289600,
+          "successes": 20,
+          "total": 20,
+          "episodes": [
+            {
+              "id": 20,
+              "outcome": "success",
+              "duration": 1.7666666666666666,
+              "src": "static/rollouts/cube-rl-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 110,
+              "outcome": "success",
+              "duration": 1.9666666666666666,
+              "src": "static/rollouts/cube-rl-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 99,
+              "outcome": "success",
+              "duration": 2.0,
+              "src": "static/rollouts/cube-rl-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 70,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-rl-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 94,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-rl-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 5,
+              "outcome": "success",
+              "duration": 2.1333333333333333,
+              "src": "static/rollouts/cube-rl-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 7,
+              "outcome": "success",
+              "duration": 2.1333333333333333,
+              "src": "static/rollouts/cube-rl-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 80,
+              "outcome": "success",
+              "duration": 2.1333333333333333,
+              "src": "static/rollouts/cube-rl-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 92,
+              "outcome": "success",
+              "duration": 2.1333333333333333,
+              "src": "static/rollouts/cube-rl-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 44,
+              "outcome": "success",
+              "duration": 2.1666666666666665,
+              "src": "static/rollouts/cube-rl-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 16,
+              "outcome": "success",
+              "duration": 2.2,
+              "src": "static/rollouts/cube-rl-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 48,
+              "outcome": "success",
+              "duration": 2.2666666666666666,
+              "src": "static/rollouts/cube-rl-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 41,
+              "outcome": "success",
+              "duration": 2.3,
+              "src": "static/rollouts/cube-rl-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 64,
+              "outcome": "success",
+              "duration": 2.3,
+              "src": "static/rollouts/cube-rl-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 82,
+              "outcome": "success",
+              "duration": 2.3,
+              "src": "static/rollouts/cube-rl-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 33,
+              "outcome": "success",
+              "duration": 2.3333333333333335,
+              "src": "static/rollouts/cube-rl-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 87,
+              "outcome": "success",
+              "duration": 2.3666666666666667,
+              "src": "static/rollouts/cube-rl-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 51,
+              "outcome": "success",
+              "duration": 2.433333333333333,
+              "src": "static/rollouts/cube-rl-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 1,
+              "outcome": "success",
+              "duration": 2.6,
+              "src": "static/rollouts/cube-rl-00.mp4",
+              "recordingOrder": 0
+            },
+            {
+              "id": 61,
+              "outcome": "success",
+              "duration": 3.533333333333333,
+              "src": "static/rollouts/cube-rl-10.mp4",
+              "recordingOrder": 10
+            }
+          ]
+        },
+        {
+          "id": "distillation",
+          "name": "Distillation",
+          "seed": 7086206,
+          "checkpointStep": 3302400,
+          "successes": 20,
+          "total": 20,
+          "episodes": [
+            {
+              "id": 11,
+              "outcome": "success",
+              "duration": 1.5333333333333334,
+              "src": "static/rollouts/cube-distillation-01.mp4",
+              "recordingOrder": 1
+            },
+            {
+              "id": 28,
+              "outcome": "success",
+              "duration": 1.7666666666666666,
+              "src": "static/rollouts/cube-distillation-04.mp4",
+              "recordingOrder": 4
+            },
+            {
+              "id": 73,
+              "outcome": "success",
+              "duration": 1.9,
+              "src": "static/rollouts/cube-distillation-14.mp4",
+              "recordingOrder": 14
+            },
+            {
+              "id": 38,
+              "outcome": "success",
+              "duration": 1.9333333333333333,
+              "src": "static/rollouts/cube-distillation-07.mp4",
+              "recordingOrder": 7
+            },
+            {
+              "id": 24,
+              "outcome": "success",
+              "duration": 1.9666666666666666,
+              "src": "static/rollouts/cube-distillation-03.mp4",
+              "recordingOrder": 3
+            },
+            {
+              "id": 89,
+              "outcome": "success",
+              "duration": 1.9666666666666666,
+              "src": "static/rollouts/cube-distillation-15.mp4",
+              "recordingOrder": 15
+            },
+            {
+              "id": 29,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-distillation-05.mp4",
+              "recordingOrder": 5
+            },
+            {
+              "id": 101,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-distillation-16.mp4",
+              "recordingOrder": 16
+            },
+            {
+              "id": 113,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-distillation-18.mp4",
+              "recordingOrder": 18
+            },
+            {
+              "id": 115,
+              "outcome": "success",
+              "duration": 2.033333333333333,
+              "src": "static/rollouts/cube-distillation-19.mp4",
+              "recordingOrder": 19
+            },
+            {
+              "id": 12,
+              "outcome": "success",
+              "duration": 2.066666666666667,
+              "src": "static/rollouts/cube-distillation-02.mp4",
+              "recordingOrder": 2
+            },
+            {
+              "id": 40,
+              "outcome": "success",
+              "duration": 2.1,
+              "src": "static/rollouts/cube-distillation-09.mp4",
+              "recordingOrder": 9
+            },
+            {
+              "id": 54,
+              "outcome": "success",
+              "duration": 2.2333333333333334,
+              "src": "static/rollouts/cube-distillation-12.mp4",
+              "recordingOrder": 12
+            },
+            {
+              "id": 39,
+              "outcome": "success",
+              "duration": 2.2666666666666666,
+              "src": "static/rollouts/cube-distillation-08.mp4",
+              "recordingOrder": 8
+            },
+            {
+              "id": 56,
+              "outcome": "success",
+              "duration": 2.466666666666667,
+              "src": "static/rollouts/cube-distillation-13.mp4",
+              "recordingOrder": 13
+            },
+            {
+              "id": 111,
+              "outcome": "success",
+              "duration": 2.5,
+              "src": "static/rollouts/cube-distillation-17.mp4",
+              "recordingOrder": 17
+            },
+            {
+              "id": 52,
+              "outcome": "success",
+              "duration": 2.566666666666667,
+              "src": "static/rollouts/cube-distillation-11.mp4",
+              "recordingOrder": 11
+            },
+            {
+              "id": 36,
+              "outcome": "success",
+              "duration": 3.2333333333333334,
+              "src": "static/rollouts/cube-distillation-06.mp4",
+              "recordingOrder": 6
+            },
+            {
+              "id": 43,
+              "outcome": "success",
+              "duration": 3.3,
+              "src": "static/rollouts/cube-distillation-10.mp4",
+              "recordingOrder": 10
+            },
+            {
+              "id": 0,
+              "outcome": "success",
+              "duration": 3.6666666666666665,
+              "src": "static/rollouts/cube-distillation-00.mp4",
+              "recordingOrder": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

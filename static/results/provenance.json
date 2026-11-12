@@ -1,0 +1,11 @@
+{
+  "icra-video/ood-generalization-figure-draft/data.json": "0f4190dbaa78bf99928945225bb93ec369ca1f49b2bfc3cfae650db7b1dbb762",
+  "paper-overleaf-69f4e93a/icra_submission/figures/init-state-heatmaps/generate.py": "5a9d1b5993ab6ad6037414d2284785cd15cb8ea9dba91ffbb6cfc5c2df410b86",
+  "paper-overleaf-69f4e93a/icra_submission/figures/init-state-heatmaps/data/peg_box_xy.csv": "1f6976fcff9e614524e8de973b4af14dad5b16a04d2653aeb4bd9c22b56679bd",
+  "figures/compute-hour-visual-rl/data/peg_ppo_frozen_seed1001.breakdown.json": "8b7ce4ce09c1dfd7876858658f685ec205031c8b6657f2a5cbbcce89537700d7",
+  "figures/compute-hour-visual-rl/data/peg_ppo_frozen_rtfast_seed1001.breakdown.json": "2aedfb7952fb3153b486621906eab7400f2998b540c0ff275ccf827ba8843346",
+  "figures/compute-hour-visual-rl/data/peg_ppo_unfrozen_seed1001.breakdown.json": "800aa71ea2c6415558dcf0fd7ec544853316a425dddf74032744bffcabbdaaa9",
+  "figures/frozen-encoder-ablation-combined/data/real_world_results.json": "40ff88fc7237a879617fd47606505f1adef4ee6e5d4d0290b3a2780377de9ebd",
+  "figures/frozen-encoder-ablation-combined/data/encoder_results.csv": "d7f53011d52e5cc83b6367efe686c0833a8476c037e04bc4d3a7d47b5af28cc4",
+  "paper-overleaf-69f4e93a/icra_submission/figures/zero_shot_transfer_summary_table/summary_table_new.tex": "7bc3412a3e171efa251ca320deec9fc546c57836fc9f98d680819fc7ab2090ab"
+}
