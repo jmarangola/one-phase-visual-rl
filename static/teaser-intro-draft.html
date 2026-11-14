@@ -13,12 +13,12 @@
 <header><h1>Teaser intro draft</h1><nav aria-label="Preview length">
 <button id="opening" aria-pressed="true">Opening</button><button id="full" aria-pressed="false">Full teaser</button><button id="replay">↻ Replay</button>
 </nav></header>
-<video id="preview" src="videos/teaser-draft/teaser-typed-opening-v2.mp4" poster="videos/teaser-draft/teaser-typed-intro-poster-v2.jpg" controls autoplay muted loop playsinline preload="auto"></video>
-<footer><span>Draft · the current homepage teaser is unchanged.</span><a id="download" href="videos/teaser-draft/teaser-typed-intro-v2.mp4" download>Download full draft</a></footer>
+<video id="preview" src="videos/teaser-draft/teaser-typed-opening-v3.mp4" poster="videos/teaser-draft/teaser-typed-intro-poster-v3.jpg" controls autoplay muted loop playsinline preload="auto"></video>
+<footer><span>Draft · the current homepage teaser is unchanged.</span><a id="download" href="videos/teaser-draft/teaser-typed-intro-v3.mp4" download>Download full draft</a></footer>
 </main><script>
 const video=document.querySelector('#preview');
 for(const mode of ['opening','full'])document.getElementById(mode).onclick=()=>{
- video.src='videos/teaser-draft/'+(mode==='opening'?'teaser-typed-opening-v2.mp4':'teaser-typed-intro-v2.mp4');
+ video.src='videos/teaser-draft/'+(mode==='opening'?'teaser-typed-opening-v3.mp4':'teaser-typed-intro-v3.mp4');
  for(const id of ['opening','full'])document.getElementById(id).setAttribute('aria-pressed',String(id===mode));
  video.play().catch(()=>{});
 };
